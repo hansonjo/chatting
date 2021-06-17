@@ -1,0 +1,39 @@
+input{
+    width: 25px;
+
+}
+body{
+    background-color: #EFE9F4;
+}
+.main-container{
+    height: 100vh;
+    max-width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    border-right: 0.5px solid #171D1C;
+    border-left: 1px solid #171D1C;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+}
+#message_input{
+    width: 90%;
+}
+#message_send{
+    width: 60px;
+    margin-left: 10px;
+}
+#message_form{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    width: 96%;
+    padding: 0px 2%;
+    margin-bottom: 10px;
+}
